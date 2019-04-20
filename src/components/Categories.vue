@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container categories">
         <h3>Top categories</h3>
         <div class="row">
             <div class="col-md-6 col-lg-3 col-12 col-sm-12 col-xl-3">
@@ -68,6 +68,11 @@
 
     h3 {
         margin-top: 20px;
+        color: #29303b;
+    }
+
+    .categories {
+        padding-bottom: 40px;
     }
 </style>
 

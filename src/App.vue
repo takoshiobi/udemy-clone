@@ -6,6 +6,7 @@
     <StudentsViewing />
     <Recommendations />
     <Categories />
+    <Reviews />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import StudentsViewing from './components/StudentsViewing'
 import Recommendations from './components/Recommendations'
 import Navbar from './components/Navbar'
 import Categories from './components/Categories'
+import Reviews from './components/Reviews'
 
 export default {
   name: 'App',
@@ -25,7 +27,8 @@ export default {
     StudentsViewing,
     Recommendations,
     Categories,
-    Navbar
+    Navbar,
+    Reviews,
   },
   data () {
     return {
