@@ -3,10 +3,10 @@
         <div class="headerText col-lg-6 col-md-6 col-sm-6 col-12">
             <h1>Learn and save</h1>
             <p>Grow your expertise with courses from $20!</p>
-  <b-input-group class="mt-3 inputGroup">
-    <b-input-group-text class="inputSlot" slot="append"><font-awesome-icon class="search" icon="search" /></b-input-group-text>
-    <b-form-input value="What do you want to learn?" class="inputForm"></b-form-input>
-  </b-input-group>
+            <b-input-group class="mt-3 inputGroup">
+                <b-input-group-text class="inputSlot" slot="append"><font-awesome-icon class="search" icon="search" /></b-input-group-text>
+                <b-form-input value="What do you want to learn?" class="inputForm"></b-form-input>
+            </b-input-group>
         </div>
     </div>
 </template>

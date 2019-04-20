@@ -7,6 +7,7 @@
     <Recommendations />
     <Categories />
     <Reviews />
+    <Plans />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import Recommendations from './components/Recommendations'
 import Navbar from './components/Navbar'
 import Categories from './components/Categories'
 import Reviews from './components/Reviews'
+import Plans from './components/Plans'
 
 export default {
   name: 'App',
@@ -29,6 +31,7 @@ export default {
     Categories,
     Navbar,
     Reviews,
+    Plans,
   },
   data () {
     return {
