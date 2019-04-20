@@ -13,9 +13,19 @@
                 {{ author }}
             </b-card-text>
 
-            <div class="text-xs-left">
-                <v-rating class="rating" small v-model="rating"></v-rating>
+            <div class="text-xs-left rating">
+                <v-rating 
+                    class="rate" 
+                    small 
+                    color="#f4c150"
+                    background-color="#dedfe0"
+                    dense
+                    readonly
+                    empty-icon="$vuetify.icons.ratingFull"
+                    v-model="rating">
+                </v-rating>
             </div>
+            <div class="ratingNumber"> {{ rating }}</div>
         </b-card>
     </div>
 </template>
@@ -27,25 +37,42 @@ export default {
         author: String,
         price: Number,
         rating: Number,
-        img: String
+        img: String,
+        nb: Number
     }
-}
+};
 </script>
 
 <style scoped>
-    .customCard {
-        font-size: 16px;
-        box-shadow: 0px 1px 10px #e3e3e4;
-        transition: .2s;
-    }
-    .customCard:hover {
-        cursor: pointer;
-        box-shadow: 10px 5px 10px #e3e3e4;
-    }
+.customCard {
+    font-size: 14px;
+    box-shadow: 0px 1px 6px #e3e3e4;
+    transition: 0.2s;
+}
+.customCard:hover {
+    cursor: pointer;
+    box-shadow: 0px 6px 10px #e3e3e4;
+}
 
-    .rating {
-        font-size: 14px;
-    }
+.rating {
+    font-size: 14px;
+}
+
+img {
+    height: 130px;
+}
+
+.rating {
+    display: inline-block;
+}
+
+.ratingNumber {
+    display: inline-block;
+    position: relative;
+    bottom: 1px;
+    margin-left: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    opacity: .7;
+}
 </style>
-
-
