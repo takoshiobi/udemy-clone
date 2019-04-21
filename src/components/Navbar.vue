@@ -14,24 +14,30 @@
                 class="inputForm"
             ></b-form-input>
         </b-input-group>
+        <span class="button-light">Udemy for Business</span>
+        <span class="button-light">Teach of Udemy</span>
+        <div class="buttonsGroup">
+            <span class="login">Log In</span>
+            <span class="signup">Sign Up</span>
+        </div>
     </div>
 </template>
 
 <style scoped>
 .navigation {
-    height: 64px;
+    height: 70px;
 }
 
 .logo {
     width: 125px;
-    padding-top: 18px;
+    padding-top: 20px;
     padding-left: 20px;
 }
 
 .categories {
     margin-left: 60px;
     position: relative;
-    top: 10px;
+    top: 13px;
     opacity: 0.8;
     cursor: pointer;
 }
@@ -80,5 +86,68 @@
     background-color: #ec5252;
     border: none !important;
     border-radius: 5px;
+}
+
+.buttonsLight {
+    position: absolute;
+    right: 40px;
+}
+
+.button-light {
+    position: relative;
+    top: 13px;
+    left: 490px;
+    margin-left: 10px;
+    font-size: 13px;
+    opacity: 0.7;
+    cursor: pointer;
+    padding: 13px;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.button-light:hover {
+    background-color: #f2f3f5;
+    border: 1px solid #dfdfdf;
+}
+
+.buttonsGroup {
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+
+.buttonsGroup span {
+    margin-left: 5px;
+}
+
+.signup {
+    background-color: #ec5252;
+    border: 1px solid #ec5252;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.signup:hover {
+    background-color: #c74444;
+}
+
+.login {
+    border: 1px solid #686f7a;
+    color: #686f7a;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.login:hover {
+    border: 1px solid #474c53;
+    color: #484d55;
 }
 </style>
