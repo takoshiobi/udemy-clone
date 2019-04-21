@@ -42,7 +42,7 @@ p {
 
 @media (max-width: 768px) {
     .headerLine {
-        visibility: hidden;
+        display: none;
     }
 }
 </style>
