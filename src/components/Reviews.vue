@@ -44,6 +44,7 @@
                 Trusted by companies of all sizes
             </div>
             <div class="logos">
+                <div class="logoRow">
                 <span class="companyLogo">
                     <img
                         src="https://i.udemycdn.com/partner-logos/booking.svg"
@@ -56,10 +57,14 @@
                         alt="vw"
                     />
                 </span>
+                </div>
+                <div class="logoRow">
                 <span class="companyLogo">
                     <img
                         src="https://i.udemycdn.com/partner-logos/mercedes.svg"
                         alt="mercedes"
+                        width="118" 
+                        height="28"
                     />
                 </span>
                 <span class="companyLogo">
@@ -68,6 +73,8 @@
                         alt="pinterest"
                     />
                 </span>
+                </div>
+                <div class="logoRow">
                 <span class="companyLogo">
                     <img
                         src="https://i.udemycdn.com/partner-logos/adidas.svg"
@@ -80,6 +87,7 @@
                         alt="paypal"
                     />
                 </span>
+                </div>
             </div>
         </div>
     </div>
@@ -138,12 +146,35 @@ p {
 }
 
 .companyLogo {
-    margin: 30px;
+    margin-right: 24px;
 }
 
 .logos {
     display: table;
     margin: 0 auto;
     padding-top: 40px;
+}
+
+.logoRow {
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .logoRow {
+        display: table;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .companyLogo {
+        margin-right: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logos {
+        margin: 0 auto;
+    }
 }
 </style>

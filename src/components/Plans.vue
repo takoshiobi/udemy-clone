@@ -72,11 +72,23 @@ button:hover {
     .plans {
         padding-top: 10px;
     }
+
+    p {
+        padding: 0 80px;
+    }
 }
 
 @media (max-width: 576px) {
     p {
         margin: 0 40px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    p {
+        margin: 0 30px;
+        padding: 0;
     }
 }
 </style>
