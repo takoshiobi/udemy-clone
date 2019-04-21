@@ -2,6 +2,7 @@
     <div class="reviews">
         <div class="container">
             <h3>What our students have to say</h3>
+            <!-- toDo: Add carousel -->
             <div class="row">
                 <div class="col-12 col-md-4 col-sm-12 col-xl-4 col-lg-4 item">
                     <div class="reviewsItem">
@@ -18,24 +19,22 @@
                 <div class="col-12 col-md-4 col-sm-12 col-xl-4 col-lg-4 item">
                     <div class="reviewsItem">
                         <div class="circle"></div>
-                        <div class="name">Borivoje</div>
+                        <div class="name">Dipesh</div>
                         <p>
-                            Udemy is a life saver. I don't have the time or
-                            money for a college education. My goal is to become
-                            a freelance web developer, and thanks to Udemy, I'm
-                            really close.
+                            I believe in lifelong learning and Udemy is a great
+                            place to learn from experts. I've learned a lot and
+                            recommend it to all my friends.
                         </p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-sm-12 col-xl-4 col-lg-4 item">
                     <div class="reviewsItem">
                         <div class="circle"></div>
-                        <div class="name">Borivoje</div>
+                        <div class="name">Kathy</div>
                         <p>
-                            Udemy is a life saver. I don't have the time or
-                            money for a college education. My goal is to become
-                            a freelance web developer, and thanks to Udemy, I'm
-                            really close.
+                            My children and I LOVE Udemy! The courses are
+                            fantastic and the instructors are so fun and
+                            knowledgeable. I only wish we found it sooner.
                         </p>
                     </div>
                 </div>
@@ -45,48 +44,48 @@
             </div>
             <div class="logos">
                 <div class="logoRow">
-                <span class="companyLogo">
-                    <img
-                        src="https://i.udemycdn.com/partner-logos/booking.svg"
-                        alt="booking"
-                    />
-                </span>
-                <span class="companyLogo">
-                    <img
-                        src="https://i.udemycdn.com/partner-logos/volkswagen.svg"
-                        alt="vw"
-                    />
-                </span>
+                    <span class="companyLogo">
+                        <img
+                            src="https://i.udemycdn.com/partner-logos/booking.svg"
+                            alt="booking"
+                        />
+                    </span>
+                    <span class="companyLogo">
+                        <img
+                            src="https://i.udemycdn.com/partner-logos/volkswagen.svg"
+                            alt="vw"
+                        />
+                    </span>
                 </div>
                 <div class="logoRow">
-                <span class="companyLogo">
-                    <img
-                        src="https://i.udemycdn.com/partner-logos/mercedes.svg"
-                        alt="mercedes"
-                        width="118" 
-                        height="28"
-                    />
-                </span>
-                <span class="companyLogo">
-                    <img
-                        src="https://i.udemycdn.com/partner-logos/pinterest.svg"
-                        alt="pinterest"
-                    />
-                </span>
+                    <span class="companyLogo">
+                        <img
+                            src="https://i.udemycdn.com/partner-logos/mercedes.svg"
+                            alt="mercedes"
+                            width="118"
+                            height="28"
+                        />
+                    </span>
+                    <span class="companyLogo">
+                        <img
+                            src="https://i.udemycdn.com/partner-logos/pinterest.svg"
+                            alt="pinterest"
+                        />
+                    </span>
                 </div>
                 <div class="logoRow">
-                <span class="companyLogo">
-                    <img
-                        src="https://i.udemycdn.com/partner-logos/adidas.svg"
-                        alt="adidas"
-                    />
-                </span>
-                <span class="companyLogo">
-                    <img
-                        src="https://i.udemycdn.com/partner-logos/paypal.svg"
-                        alt="paypal"
-                    />
-                </span>
+                    <span class="companyLogo">
+                        <img
+                            src="https://i.udemycdn.com/partner-logos/adidas.svg"
+                            alt="adidas"
+                        />
+                    </span>
+                    <span class="companyLogo">
+                        <img
+                            src="https://i.udemycdn.com/partner-logos/paypal.svg"
+                            alt="paypal"
+                        />
+                    </span>
                 </div>
             </div>
         </div>
@@ -103,6 +102,7 @@
     padding: 30px 0;
     background-color: white;
     margin: 20px 1px;
+    height: 280px;
 }
 
 h3 {
@@ -117,6 +117,14 @@ h3 {
     border-radius: 50%;
     display: inline-block;
     margin-left: 25px;
+}
+
+.item:nth-of-type(2) .circle {
+    background-color: tomato;
+}
+
+.item:nth-of-type(3) .circle {
+    background-color: rgb(11, 137, 168);
 }
 
 .name {
