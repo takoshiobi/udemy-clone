@@ -14,8 +14,8 @@
             </b-card-text>
 
             <div class="text-xs-left rating">
-                <v-rating 
-                    class="rate" 
+                <v-rating
+                    class="rate"
                     color="#f4c150"
                     background-color="#dedfe0"
                     dense
@@ -26,8 +26,10 @@
                 >
                 </v-rating>
             </div>
-            <div class="ratingNumber"> {{ rating }}</div>
-            <div class="nbUsers"> ({{ String(nb).slice(0,-3) + "," + String(nb).slice(-3) }})</div>
+            <div class="ratingNumber">{{ rating }}</div>
+            <div class="nbUsers">
+                ({{ String(nb).slice(0, -3) + ',' + String(nb).slice(-3) }})
+            </div>
             <div class="price">${{ price }}</div>
             <div class="discount">$10</div>
         </b-card>
@@ -49,7 +51,7 @@ export default {
 </script>
 
 <style scoped>
-.customCard { 
+.customCard {
     box-shadow: 0px 1px 6px #e3e3e4;
     transition: 0.2s;
 }
@@ -60,7 +62,7 @@ export default {
 
 p {
     font-size: 12px;
-    opacity: .7;
+    opacity: 0.7;
 }
 
 .rating {
@@ -74,14 +76,14 @@ img {
 
 h4 {
     font-size: 16px;
-    opacity: .95;
-   overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   -webkit-box-orient: vertical;
-   -webkit-line-clamp: 2;
-   line-height: 1.3em;        
-   max-height: 2*2em; 
+    opacity: 0.95;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1.3em;
+    max-height: 2 * 2em;
 }
 
 .ratingNumber {
@@ -91,7 +93,7 @@ h4 {
     margin-left: 4px;
     font-size: 11px;
     font-weight: bold;
-    opacity: .7;
+    opacity: 0.7;
 }
 
 .nbUsers {
@@ -106,9 +108,8 @@ h4 {
 .price {
     text-align: center;
     padding-top: 10px;
-    opacity: .6;
+    opacity: 0.6;
     text-decoration: line-through;
-
 }
 
 .discount {

@@ -29,7 +29,8 @@ export default {
             data: [
                 {
                     author: 'Stephen Grider',
-                    title: 'Machine Learning A-Z™: Hands-On Python & R In Data Science',
+                    title:
+                        'Machine Learning A-Z™: Hands-On Python & R In Data Science',
                     rating: 4.0,
                     nb: 21232,
                     price: 20,
@@ -49,7 +50,8 @@ export default {
                 },
                 {
                     author: 'Stephen Grider',
-                    title: 'The Complete JavaScript Course 2019: Build Real Projects!',
+                    title:
+                        'The Complete JavaScript Course 2019: Build Real Projects!',
                     rating: 4.0,
                     nb: 212367,
                     price: 20,
@@ -59,7 +61,8 @@ export default {
                 },
                 {
                     author: 'Stephen Grider',
-                    title: 'React - The Complete Guide (incl Hooks, React Router, Redux)',
+                    title:
+                        'React - The Complete Guide (incl Hooks, React Router, Redux)',
                     rating: 4.0,
                     nb: 21292,
                     price: 20,
@@ -69,7 +72,8 @@ export default {
                 },
                 {
                     author: 'Stephen Grider',
-                    title: 'Python for Data Science and Machine Learning Bootcamp',
+                    title:
+                        'Python for Data Science and Machine Learning Bootcamp',
                     nb: 21938,
                     rating: 4.0,
                     price: 20,
