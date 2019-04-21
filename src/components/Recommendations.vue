@@ -11,7 +11,7 @@
 
 <style scoped>
 .lineGrad {
-    margin-top: 40px;
+    margin-top: 20px;
     height: 7px;
     background: rgb(111, 27, 82);
     background: linear-gradient(

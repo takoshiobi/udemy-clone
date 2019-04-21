@@ -46,7 +46,7 @@ export default {
                     price: 20,
                     discount: 10,
                     img:
-                        'https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80'
+                        'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'
                 },
                 {
                     author: 'Stephen Grider',
@@ -57,7 +57,7 @@ export default {
                     price: 20,
                     discount: 10,
                     img:
-                        'https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80'
+                        'https://images.unsplash.com/photo-1480694313141-fce5e697ee25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80'
                 },
                 {
                     author: 'Stephen Grider',
@@ -68,7 +68,7 @@ export default {
                     price: 20,
                     discount: 10,
                     img:
-                        'https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80'
+                        'https://images.unsplash.com/photo-1518932945647-7a1c969f8be2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80'
                 },
                 {
                     author: 'Stephen Grider',
@@ -79,7 +79,7 @@ export default {
                     price: 20,
                     discount: 10,
                     img:
-                        'https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80'
+                        'https://images.unsplash.com/photo-1550063873-ab792950096b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80'
                 }
             ]
         };
@@ -105,5 +105,9 @@ h3 {
     margin-left: 10px;
     font-weight: 400;
     margin-bottom: 10px;
+}
+
+.cardsContainer {
+    padding-bottom: 0;
 }
 </style>
