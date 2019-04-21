@@ -1,7 +1,7 @@
 <template>
-    <div class="cardsContainer container-fluid">
+    <div class="cardsContainer container">
         <h3>Students are viewing</h3>
-        <div class="row cards">
+        <div class="cards row">
             <div v-for="(data, i) in data" :key="i" class="card">
                 <Card
                     :title="data.title"
@@ -9,7 +9,8 @@
                     :rating="data.rating"
                     :img="data.img"
                     :price="data.price"
-                    :nb="nb"
+                    :nb="data.nb"
+                    :discount="data.discount"
                 />
             </div>
         </div>
@@ -28,46 +29,51 @@ export default {
             data: [
                 {
                     author: 'Stephen Grider',
-                    title: 'Python for Data Science and ML',
-                    rating: 4.7,
-                    nb: 2123,
+                    title: 'Machine Learning A-Z™: Hands-On Python & R In Data Science',
+                    rating: 4.0,
+                    nb: 21232,
                     price: 20,
+                    discount: 10,
                     img:
                         'https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80'
                 },
                 {
                     author: 'Stephen Grider',
-                    title: 'Python for Data Science and ML',
-                    rating: 4.4,
-                    nb: 2923,
+                    title: 'AWS Certified Solutions Architect - Associate 2019',
+                    rating: 4.0,
+                    nb: 292301,
                     price: 20,
+                    discount: 10,
                     img:
                         'https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80'
                 },
                 {
                     author: 'Stephen Grider',
-                    title: 'Python for Data Science and ML',
-                    rating: 4.8,
-                    nb: 2123,
+                    title: 'The Complete JavaScript Course 2019: Build Real Projects!',
+                    rating: 4.0,
+                    nb: 212367,
                     price: 20,
+                    discount: 10,
                     img:
                         'https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80'
                 },
                 {
                     author: 'Stephen Grider',
-                    title: 'Python for Data Science and ML',
-                    rating: 4.6,
-                    nb: 2129,
+                    title: 'React - The Complete Guide (incl Hooks, React Router, Redux)',
+                    rating: 4.0,
+                    nb: 21292,
                     price: 20,
+                    discount: 10,
                     img:
                         'https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80'
                 },
                 {
                     author: 'Stephen Grider',
-                    title: 'Python for Data Science and ML',
-                    nb: 2193,
-                    rating: 4.2,
+                    title: 'Python for Data Science and Machine Learning Bootcamp',
+                    nb: 21938,
+                    rating: 4.0,
                     price: 20,
+                    discount: 10,
                     img:
                         'https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80'
                 }
