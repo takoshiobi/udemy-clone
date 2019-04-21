@@ -150,4 +150,26 @@
     border: 1px solid #474c53;
     color: #484d55;
 }
+
+@media (max-width: 768px) {
+    .login,
+    .signup,
+    .button-light,
+    .inputGroup,
+    .categories {
+        display: none;
+    }
+
+    .logo {
+        width: 100px;
+        display: table;
+        margin: 0 auto;
+        padding-top: 13px;
+        padding-left: 0;
+    }
+
+    .navigation {
+        height: 50px;
+    }
+}
 </style>

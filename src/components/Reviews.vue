@@ -172,6 +172,11 @@ p {
         display: table;
         margin: 0 auto;
     }
+
+    .reviewsItem {
+        margin: 7px 1px;
+        height: auto;
+    }
 }
 
 @media (max-width: 992px) {
