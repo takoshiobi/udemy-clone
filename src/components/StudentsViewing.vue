@@ -112,31 +112,37 @@ h3 {
 }
 
 @media (max-width: 1140px) {
-    .card:last-of-type, .card:nth-of-type(4), .cards {
+    .card:last-of-type,
+    .card:nth-of-type(4),
+    .cards {
         display: none;
-    } 
+    }
 
-    .cards, h3 {
+    .cards,
+    h3 {
         margin-left: 12%;
         display: none;
-    }  
+    }
 }
 
 @media (max-width: 992px) {
-    .cards, h3 {
+    .cards,
+    h3 {
         margin-left: 12%;
-    }  
+    }
 }
 
 @media (max-width: 768px) {
-    .cards, h3 {
+    .cards,
+    h3 {
         margin-left: 4%;
-    }  
+    }
 }
 
 @media (max-width: 576px) {
-    .cards, h3 {
+    .cards,
+    h3 {
         margin-left: 1%;
-    }  
+    }
 }
 </style>

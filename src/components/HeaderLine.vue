@@ -45,4 +45,21 @@ p {
         display: none;
     }
 }
+
+@media (max-width: 992px) {
+    .headerLine {
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 16px;
+        padding-top: 10px;
+        padding-left: 40px;
+    }
+
+    p {
+        font-size: 14px;
+        padding-left: 40px;
+    }
+}
 </style>
