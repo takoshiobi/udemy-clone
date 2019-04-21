@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <div class="headerText col-lg-6 col-md-6 col-sm-6 col-12">
+        <div class="headerText col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
             <h1>Learn and save</h1>
             <p>Grow your expertise with courses from $20!</p>
             <b-input-group class="mt-3 inputGroup">
@@ -72,5 +72,63 @@ p {
     border: none !important;
     font-size: 20px;
     opacity: 0.6;
+}
+
+@media (max-width: 1140px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+    .header {
+        background: url('../assets/img/bg.jpg');
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 530px) {
+    .header {
+        background: url('../assets/img/bg.jpg');
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .headerText {
+        padding-top: 70%;
+        padding-left: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .inputGroup {
+        width: 300px !important;
+        height: 50px;
+        cursor: pointer;
+        background-color: white;
+    }
+
+    .search {
+        cursor: poiner;
+        color: #ec5252;
+        width: 20px;
+        height: 50px;
+    }
+
+    .inputForm {
+        font-size: 16px;
+    }
 }
 </style>
