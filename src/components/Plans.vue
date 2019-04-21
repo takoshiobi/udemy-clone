@@ -63,4 +63,20 @@ button {
 button:hover {
     background-color: #ad3652;
 }
+
+@media (max-width: 768px) {
+    .planItem:nth-of-type(2) {
+        border-top: 1px solid #dedfe0;
+    }
+
+    .plans {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    p {
+        margin: 0 40px;
+    }
+}
 </style>
