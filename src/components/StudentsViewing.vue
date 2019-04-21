@@ -110,4 +110,22 @@ h3 {
 .cardsContainer {
     padding-bottom: 0;
 }
+
+@media (max-width: 1140px) {
+    .card:last-of-type, .card:nth-of-type(4) {
+        display: none;
+    }   
+}
+
+@media (max-width: 992px) {
+   
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 576px) {
+    
+}
 </style>

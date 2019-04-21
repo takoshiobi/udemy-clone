@@ -148,7 +148,6 @@ export default {
     }
 
     .tabs {
-        border: 1px solid red;
         width: 80%;
         display: table;
         margin: 0 auto;
@@ -162,10 +161,6 @@ export default {
 @media (max-width: 992px) {
     .recContainer {
         display: none;
-    }
-
-    .tabs {
-        border: 1px solid red;
     }
 
     .cardContainer {
