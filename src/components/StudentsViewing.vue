@@ -1,7 +1,7 @@
 <template>
     <div class="cardsContainer container">
         <h3>Students are viewing</h3>
-        <div class="cards row">
+        <div class="cards">
             <div v-for="(data, i) in data" :key="i" class="card">
                 <Card
                     :title="data.title"
@@ -96,6 +96,7 @@ export default {
 .card {
     margin: 0 4px;
     border: none !important;
+    display: inline-block;
 }
 
 h3 {

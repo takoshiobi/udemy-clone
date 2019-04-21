@@ -31,7 +31,7 @@
                 ({{ String(nb).slice(0, -3) + ',' + String(nb).slice(-3) }})
             </div>
             <div class="price">${{ price }}</div>
-            <div class="discount">$10</div>
+            <div class="discount">${{ discount }}</div>
         </b-card>
     </div>
 </template>
